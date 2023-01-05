@@ -1,4 +1,4 @@
-from django.db.models import Prefetch
+from django.db.models import Prefetch, F
 from rest_framework.viewsets import ReadOnlyModelViewSet
 
 from services.models import Subscription
